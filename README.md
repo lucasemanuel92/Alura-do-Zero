@@ -14,12 +14,10 @@ This course is related to the cours "From Scratch: Beginner in Programming, prom
 ## Tecnologias / Technologies
 
 <div style="display: inline_block"><br>
-   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 <img align="center" alt="HTML" src=https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white>
 <img align="center" alt="CSS" src=https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white>
-<img align="center" alt="JavaScript" src=https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg>
-<img align="center" alt="Git" src=https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg>
-<img align="center" alt="GitHub" src=https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg>
+<img align="center" alt="JavaScript" src=https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E>
+<img align="center" alt="GitHub" src=https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white>
 </div>
 
 ## Blocos de Estudo / Study Blocks
