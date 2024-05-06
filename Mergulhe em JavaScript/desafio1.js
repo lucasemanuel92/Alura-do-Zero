@@ -1,4 +1,4 @@
-// Criar uma funcao que exibe ola mundo
+// Criar uma funcao que exibe olá mundo
 function exibirOla(){
     console.log(`ola mundo`);
 }
