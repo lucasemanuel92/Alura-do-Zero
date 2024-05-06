@@ -24,7 +24,7 @@ if (pontuação >= 100) {
 }
 
 let saldoDaConta = 1523.45;
-console.log(`O saldo da conta é ${saldoDaConta}.`);
+console.log(`O saldo da conta é ${saldoDaConta}`);
 
 let nome = prompt('Qual o seu nome? ');
 //alert(`Boas vindas ${nome}`);
