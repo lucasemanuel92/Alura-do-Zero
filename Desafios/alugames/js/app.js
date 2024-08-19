@@ -8,9 +8,11 @@ function alterarStatus(id) {
 
     // Dentro do if temos (variável.chamarListaDeClasses.temEssaClasse('.nome__da__classe'))
     if (imagem.classList.contains('.dashboard__item__img--rented')) {
+        if (confirm(`Tem certeza que quer devolver ${nomeJogo.textContent}?`)) {
         imagem.classList.remove('.dashboard__item__img--rented');
         botao.classList.remove('.dashboard__item__button--return');
         botao.textContent = 'Alugar';
+        }
     } else {
         imagem.classList.add('.dashboard__item__img--rented');
         botao.textContent = 'Devolver';
