@@ -20,11 +20,13 @@ function alterarStatus(id) {
         imagem.classList.remove('.dashboard__item__img--rented');
         botao.classList.remove('.dashboard__item__button--return');
         botao.textContent = 'Alugar';
+        jogosAlugados--; // Elimina um da lista
         }
     } else {
         imagem.classList.add('.dashboard__item__img--rented');
         botao.classList.add('.dashboard__item__button--return');
         botao.textContent = 'Devolver';
+        jogosAlugados++; // Adiciona um a lista
     }
 
     contarExibirJogos();
