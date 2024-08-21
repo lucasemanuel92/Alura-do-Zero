@@ -1,5 +1,7 @@
 // Verificar se é um palíndromo (palavras que lidas ao contrário são iguais) 
 
+verificarPalindromo();
+// Será usado um hoisting, ou seja, vai buscar a inicialização
 function verificarPalindromo() {
     let palavra = "peixe";
     // Tornar uma string em array
@@ -12,5 +14,4 @@ function verificarPalindromo() {
             console.log(`A palavra ${palavra} não é um palíndromo`);
         }
 }
-// Chamando a função
-verificarPalindromo();
+
