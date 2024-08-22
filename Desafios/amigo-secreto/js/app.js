@@ -3,6 +3,12 @@ let amigos = [];
 
 function adicionar() {
     let nomeAmigo = document.getElementById('nome-amigo');
+    // Verificando se está vazio
+    if (nomeAmigo.value == '') {
+        alert('Nome inválido');
+        return
+    }
+
     let listaAmigos = document.getElementById('lista-amigos');
     amigos.push(nomeAmigo.value); // Isso é para o nome ser adicionado ao array
     
@@ -20,6 +26,11 @@ function adicionar() {
 }
 
 function sortear() {
+   if (amigos.length <= 4) {
+    alert('É necessário mais amigos');
+    return;
+   }
+   
     // Chama a função embaralha e coloca o array como parâmetro
     embaralha(amigos);
 
