@@ -11,7 +11,7 @@ console.log(maiorIdade(21))
 
 // Forma mais curta
 function verificarIdade(idade){
-    // return condição if : else
+    // 'return' 'condição' ? 'if' : 'else'
     return idade >= 18 ? 'Maior de idade' : 'Menor de idade'
 }
 
