@@ -8,7 +8,11 @@ function adicionar() {
         alert('Nome inválido');
         return
     }
-
+    // Validando se o nome já não foi adicionado
+    if (amigos.includes(nomeAmigo.value)) {
+        alert('Pessoa já foi adicionada');
+        return;
+    }
     let listaAmigos = document.getElementById('lista-amigos');
     amigos.push(nomeAmigo.value); // Isso é para o nome ser adicionado ao array
     
@@ -26,7 +30,7 @@ function adicionar() {
 }
 
 function sortear() {
-   if (amigos.length <= 4) {
+   if (amigos.length < 4) {
     alert('É necessário mais amigos');
     return;
    }
