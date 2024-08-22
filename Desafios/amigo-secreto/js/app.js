@@ -13,6 +13,10 @@ function adicionar() {
         listaAmigos.textContent = listaAmigos.textContent + ', ' + nomeAmigo.value;
     }
     nomeAmigo.value = '';
+
+    // Atualizar lista caso seja removido
+    atualizarLista();
+    atualizarSorteio();
 }
 
 function sortear() {
@@ -30,12 +34,44 @@ function sortear() {
     }
 }
 
+// Opção de excluir um amigo
+function excluir() {
+    amigos.splice(index, 1);
+    atualizarLista();
+    atualizarSorteio();
+}
+
 // Foi dada pronta no curso
 function embaralha(lista) {
     for (let indice = lista.lenght; indice; indice--) {
         const indiceAleatorio = Math.floor(Math.random() * indice);
 
         [lista[indice - 1], lista[indiceAleatorio]] = [lista[indiceAleatorio]], [lista[indice -1]];
+    }
+}
+
+// Atualizar sorteio
+function atualizarSorteio() {
+    let sorteio = document.getElementById('lista-sorteio');
+    sorteio.innerHTML = '';
+}
+
+// Atualizar Lista 
+function atualizarLista() {
+    let listaAmigos = document.getElementById('lista-amigos');
+    lista.innerHTML = '';
+
+    for (let i = 0; i < amigos.length; i++) {
+        // Cria um elemento parágrafo para cada amigo
+        let paragrafo = document.createElement('p');
+        paragrafo.textContent = amigos[i];
+
+        // Adiciona clique para excluir
+        paragrafo.addEventListener('click', function() {
+            excluir(i);
+
+            listaAmigos.appendChild(paragrafo);
+        })
     }
 }
 
