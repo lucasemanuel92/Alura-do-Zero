@@ -38,3 +38,12 @@ function embaralha(lista) {
         [lista[indice - 1], lista[indiceAleatorio]] = [lista[indiceAleatorio]], [lista[indice -1]];
     }
 }
+
+function reiniciar() {
+    // Zera o array
+    amigos = [];
+    // Colocar um vazio na tag
+    document.getElementById('lista-amigos').innerHTML = '';
+    // Colocar um vazio na lista do sorteio
+    document.getElementById('lista-sorteio').innerHTML = '';
+}
