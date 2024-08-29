@@ -3,7 +3,7 @@
 
 ### PT-BR:
 
-Esse curso é relativo ao curso "A Partir do Zero: Inciante em Progamação", promovido pela plataforma Alura. Por isso existem diversas tecnologias relacionadas no mesmo repositório. Somente os códigos serão colocados com uma breve descrição sobre o que é projeto colocada no topo de cada código. Apesar de serem códigos dados nos cursos, algumas alterações podem ser encontradas devido a testes que eu mesmo fiz para melhorar ou aprender mais sobre o assunto. Caso tenha qualquer dúvida ou queira entrar em contato, sinta-se a vontade.
+Essa formção é relativo ao curso "A Partir do Zero: Inciante em Progamação", promovido pela plataforma Alura. Por isso existem diversas tecnologias relacionadas no mesmo repositório. Somente os códigos serão colocados com uma breve descrição sobre o que é projeto colocada no topo de cada código. Apesar de serem códigos dados nos cursos, algumas alterações podem ser encontradas devido a testes que eu mesmo fiz para melhorar ou aprender mais sobre o assunto. Caso tenha qualquer dúvida ou queira entrar em contato, sinta-se a vontade.
 ### EN:
 
 This course is related to the cours "From Scratch: Beginner in Programming, promoted by the Alura platform. That's why there are several related technologies in the same repository. Only the codes will be placed with a brief description of what the project is placed at the top of each code. Although they are codes given in the courses, some changes can be found due to tests that I carried out myself to improve or learn more about the subject. If you have any questions or want to get in touch, feel free.
